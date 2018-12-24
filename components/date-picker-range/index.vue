@@ -67,7 +67,7 @@
 
             format: {
                 type: String,
-                default: 'yyyy/MM/dd'
+                default: 'll'
             },
 
             placeholder: {
