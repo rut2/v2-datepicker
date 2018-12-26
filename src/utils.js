@@ -105,7 +105,7 @@ export const formatDate = (date, formatStr) => {
     if (!isDate(date)) {
         return NaN;
     }
-    console.log(moment(date).format(formatStr), "format", date ,formatStr);
+    // console.log(moment(date).format(formatStr), "format", date ,formatStr);
     return moment(date).format(formatStr)
 };
 
